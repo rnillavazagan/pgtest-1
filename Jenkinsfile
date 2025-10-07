@@ -24,12 +24,12 @@ pipeline {
                 echo 'Registering the metadata'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
-                    name: "II-demo-runs-BT-11111",
-                    version: "1.0.2",
+                    name: "II-demo-runs-BT-222",
+                    version: "1.0.3",
                     type: "docker",
-                    url: "http://localhost:4021",
+                    url: "http://localhost:4022",
                     digest: "6f637064707039346163663237383761",
-                    label: "II-artifact"
+                    label: "I21-artifact"
                 )
             }
         }
